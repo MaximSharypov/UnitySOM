@@ -59,8 +59,7 @@ public class BackgroundAnimation : MonoBehaviour
         GameObject romashka = GameObject.Find("romashka");
         GameObject marker_orange = GameObject.Find("marker_orange");
 
-        flash.transform.position = new Vector3(cow.transform.position.x, flash.transform.position.y, flash.transform.position.z);
-        romashka.transform.position = new Vector3(cow.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
+        
         
 
         //Debug.Log(flash.transform.position);
@@ -73,86 +72,128 @@ public class BackgroundAnimation : MonoBehaviour
             if (timeStart < (22 * x))
         {
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow5.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow5.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (21 * x))
         {
             marker_orange.transform.position = new Vector3(cow3.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow3.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow3.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (20 * x))
         {
             marker_orange.transform.position = new Vector3(cow3.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow3.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow3.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (19 * x))
         {
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow5.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow5.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (18 * x))
         {
             marker_orange.transform.position = new Vector3(cow3.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow3.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow3.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);   
         }       
             if (timeStart < (17 * x))
         {
             marker_orange.transform.position = new Vector3(cow3.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow3.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow3.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (16 * x))
         {
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow5.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow5.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (15 * x))
         {
             marker_orange.transform.position = new Vector3(cow4.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow4.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow4.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }   
             if (timeStart < (14 * x))
         {
             marker_orange.transform.position = new Vector3(cow3.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow3.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow3.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (13 * x))
         {
             marker_orange.transform.position = new Vector3(cow2.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow2.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow2.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (12 * x))
         {
             marker_orange.transform.position = new Vector3(cow.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (11 * x))
         {
             marker_orange.transform.position = new Vector3(cow6.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow6.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow6.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (9 * x))
         {
             marker_orange.transform.position = new Vector3(cow6.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow6.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow6.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (8 * x))
         {
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow5.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow5.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }      
             if (timeStart < (7 * x))
         {
             marker_orange.transform.position = new Vector3(cow3.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow3.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow3.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }    
             if (timeStart < (6 * x))
         {
             marker_orange.transform.position = new Vector3(cow6.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow6.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow6.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (5 * x))
         {
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow5.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow5.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (4 * x))
         {
             marker_orange.transform.position = new Vector3(cow4.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow4.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow4.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }
             if (timeStart < (3 * x))
         {
             marker_orange.transform.position = new Vector3(cow6.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow6.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow6.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }       
             if (timeStart < (2 * x))
         {
             marker_orange.transform.position = new Vector3(cow2.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow2.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow2.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         } 
             if (timeStart < (1 * x))
         {
             marker_orange.transform.position = new Vector3(cow.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
+            flash.transform.position = new Vector3(cow.transform.position.x, flash.transform.position.y, flash.transform.position.z);
+            romashka.transform.position = new Vector3(cow.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
         }                                                                               
     }
         

@@ -1994,7 +1994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1243819827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: -5.11, z: 0}
+  m_LocalPosition: {x: 0.3, y: -5.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2330,6 +2330,7 @@ GameObject:
   - component: {fileID: 1809059150}
   - component: {fileID: 1809059149}
   - component: {fileID: 1809059148}
+  - component: {fileID: 1809059151}
   m_Layer: 0
   m_Name: romashka
   m_TagString: Untagged
@@ -2414,12 +2415,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809059147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3815026, y: 8.86, z: 0}
+  m_LocalPosition: {x: 0.3, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1809059151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809059147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568ea05861b1b8c2c86aa0b55279cfaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0.3, y: 5.5, z: 0}
+  end: {x: 0.3, y: 2, z: 0}
+  time: 1.5
 --- !u!1 &1997265276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2531,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997265276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.37, y: -2.61, z: 0}
+  m_LocalPosition: {x: 0.3, y: -2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
