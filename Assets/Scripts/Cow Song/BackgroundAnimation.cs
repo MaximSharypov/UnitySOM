@@ -6,8 +6,11 @@ using UnityEngine.UI;
 
 public class BackgroundAnimation : MonoBehaviour
 {
+    public Vector3 start; // начало
+    public Vector3 end; // конец
+    public float time; // время скейла
+    private float timer;
     public float timeStart = 35f;
-    public Text Timer;
     // public Point[] sequence;
     public GameObject cow;
     public GameObject cow2;
@@ -36,7 +39,9 @@ public class BackgroundAnimation : MonoBehaviour
     void Update()
     {
         timeStart -= Time.deltaTime;
-        Timer.text = Mathf.Round(timeStart).ToString ();
+       
+        transform.position = Vector3.Lerp(start, end, Mathf.PingPong(timer, time));
+        timer += Time.deltaTime;
 
         string cow_name = String.Concat("cow", 1);
         string cow_name2 = String.Concat("cow", 2);
@@ -49,7 +54,7 @@ public class BackgroundAnimation : MonoBehaviour
         
         cow = GameObject.Find(cow_name);
         cow2 = GameObject.Find(cow_name2);
-        cow3= GameObject.Find(cow_name3);
+        cow3 = GameObject.Find(cow_name3);
         cow4 = GameObject.Find(cow_name4);
         cow5 = GameObject.Find(cow_name5);
         cow6 = GameObject.Find(cow_name6);
