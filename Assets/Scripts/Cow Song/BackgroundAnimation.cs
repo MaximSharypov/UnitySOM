@@ -79,6 +79,7 @@ public class BackgroundAnimation : MonoBehaviour
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
             flash.transform.position = new Vector3(cow5.transform.position.x, flash.transform.position.y, flash.transform.position.z);
             romashka.transform.position = new Vector3(cow5.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
+                
         }       
             if (timeStart < (21 * x))
         {
