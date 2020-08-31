@@ -9,7 +9,7 @@ public class PlaneFinale : MonoBehaviour
     public void LoadSceneMain()
     {
         Debug.Log ("Загрузка сцены");
-        SceneManager.LoadScene("S5.Finale");
+        SceneManager.LoadScene("S4.Plane");
     }
 
 }

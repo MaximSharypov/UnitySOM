@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 8ca9efc7af01eba049e1f1c6af337eb5
   - enabled: 1
-    path: Assets/Scenes/S1.Lake.unity
+    path: Assets/Scenes/Mosquito.unity
     guid: 85f3e9d15e414664a8b13bb8f67a5792
   - enabled: 1
     path: Assets/Scenes/S2.ClockTower.unity
@@ -21,9 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/S4.Plane.unity
     guid: a59f0e4c9e97273aa99af96c2855e380
   - enabled: 1
-    path: Assets/Scenes/S5.Finale.unity
-    guid: abcbb4bd9ad119b80a56c3364dc67e2e
-  - enabled: 1
     path: Assets/Scenes/CowsV2.unity
     guid: 63e6546b9c623fd4782dd49cfe51663d
+  - enabled: 1
+    path: Assets/Scenes/S1.Lake.unity
+    guid: ced599155ff744123bd7f2f5c2464151
+  - enabled: 1
+    path: Assets/Scenes/Train_motion.unity
+    guid: 122db4fd89534d844a7e0bc8899bae96
+  - enabled: 1
+    path: Assets/Scenes/Tractor_motion.unity
+    guid: 21af1cf6bb53180469051d783556b100
   m_configObjects: {}

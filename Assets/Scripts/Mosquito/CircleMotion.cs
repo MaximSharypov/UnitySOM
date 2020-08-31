@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class CircleMotion : MonoBehaviour
 {
-    public GameObject mosquito1;
-    public GameObject mosquito2;
-    public GameObject mosquito3
-    ;
+    
     public Transform center;
 
     [SerializeField]
@@ -24,7 +21,7 @@ public class CircleMotion : MonoBehaviour
     void Start()
     {
         spawnPos = transform.position;
-        enemyRef = Resources.Load("mosquito1_1");
+        enemyRef = Resources.Load("mosquito1");
     }
 
     // Update is called once per frame
@@ -60,7 +57,7 @@ public class CircleMotion : MonoBehaviour
         GameObject enemyCopy = (GameObject)Instantiate(enemyRef);
        
         
-        Destroy(gameObject);
+       
     }
 
 }

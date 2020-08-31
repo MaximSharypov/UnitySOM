@@ -20,19 +20,16 @@ public class BackgroundAnimation : MonoBehaviour
     public GameObject cow6;
     public GameObject cow7;
 
+    bool create = false;
+
     private float x = 1.5f;
+
+     private UnityEngine.Object enemyRef;
 
     // Start is called before the first frame update
     void Start()
     {
-     
-
-        // sequence = Point[]{
-        //     Point(1, 1.0),
-        //     Point(1, 1.0),
-        //     Point(1, 1.0),
-        // };
-
+     enemyRef = Resources.Load("stars3");
     }
 
     // Update is called once per frame
@@ -67,13 +64,7 @@ public class BackgroundAnimation : MonoBehaviour
         
         
 
-        //Debug.Log(flash.transform.position);
-        //Debug.Log(romashka.transform.position);
-        //Debug.Log(marker_orange.transform.position);
-
         
-      
-
             if (timeStart < (22 * x))
         {
             marker_orange.transform.position = new Vector3(cow5.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
@@ -200,7 +191,21 @@ public class BackgroundAnimation : MonoBehaviour
             marker_orange.transform.position = new Vector3(cow.transform.position.x, marker_orange.transform.position.y, marker_orange.transform.position.z);
             flash.transform.position = new Vector3(cow.transform.position.x, flash.transform.position.y, flash.transform.position.z);
             romashka.transform.position = new Vector3(cow.transform.position.x, romashka.transform.position.y, romashka.transform.position.z);
+        }
+            if (timeStart <= 0 )
+        {
+            if(!create)
+            {
+            Invoke("Respawn", 0.1f);
+            create = true;         
+            //Destroy(GameObject.Find("romashka"));
+            romashka.gameObject.SetActive(false);
+            }
         }                                                                               
+    }
+    void Respawn()
+    {
+        GameObject enemyCopy = (GameObject)Instantiate(enemyRef);     
     }
         
 }
