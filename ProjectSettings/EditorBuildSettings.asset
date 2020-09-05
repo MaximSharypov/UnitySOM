@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tractor_motion.unity
     guid: 21af1cf6bb53180469051d783556b100
+  - enabled: 1
+    path: Assets/Scenes/Fly.unity
+    guid: efb6007598c2d80699c306fdd6de2ac3
   m_configObjects: {}

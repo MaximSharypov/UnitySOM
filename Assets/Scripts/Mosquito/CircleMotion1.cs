@@ -25,7 +25,7 @@ public class CircleMotion1 : MonoBehaviour
     void Start()
     {
         spawnPos = transform.position;
-        enemyRef = Resources.Load("mosquito2");
+        enemyRef = Resources.Load("mosquito2_1");
     }
 
     // Update is called once per frame

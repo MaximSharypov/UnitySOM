@@ -32,7 +32,7 @@ public class VideoControl : MonoBehaviour
     void Update ()
 
     {
-       if(Input.touchCount > 0)
+       if(Input.GetMouseButtonDown(0))
        {
 
 

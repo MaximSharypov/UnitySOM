@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -409,9 +409,9 @@ Canvas:
   m_GameObject: {fileID: 184902444}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 534669904}
+  m_PlaneDistance: 20
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -419,7 +419,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &184902448
 RectTransform:
@@ -584,7 +584,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.066281796, y: -0.1892263, z: -6.9588094}
+  m_LocalPosition: {x: 0.08, y: 0.05, z: -5.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1961240640}
@@ -691,7 +691,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 19700bd7c0df63c4a89dd22e23c79cc1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae57f770d6e0f7176802b8b0627f12d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -710,8 +710,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961240638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.344, y: 0.284, z: 0.008809394}
-  m_LocalScale: {x: 1.031426, y: 1.0364702, z: 0.9903521}
+  m_LocalPosition: {x: 7.521, y: -0.292, z: 0.009}
+  m_LocalScale: {x: 1.0596422, y: 1.0624568, z: 1.069476}
   m_Children:
   - {fileID: 534669905}
   m_Father: {fileID: 0}
@@ -730,7 +730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 0}
-  videoToPlay: {fileID: 32900000, guid: ef059f5cd1782624fb93549583968880, type: 3}
+  videoToPlay: {fileID: 32900000, guid: 91c9c2d58f88a3ca69d79114b43e2498, type: 3}
   videoSource: 0
   playbackSpeed: 2
 --- !u!82 &1961240642
